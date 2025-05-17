@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teh Tarik Al-Farid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- BLACK SECTION - Gambar Produk & Logo (Slider) -->
+    <section class="section section-black">
+        <div class="container">
+            <img src="images/logo.png" alt="Teh Tarik Al-Farid Logo" class="logo">
+            
+            <div class="slider-container">
+                <div class="slider" id="productSlider">
+                    <div class="slide">
+                        <div class="product-image-container original">
+                            <div class="product-image-inner">
+                                <img src="images/original.png" alt="Teh Tarik Original">
+                            </div>
+                        </div>
+                        <h3 class="product-title original-text">Teh Tarik Original</h3>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="product-image-container strawberry">
+                            <div class="product-image-inner">
+                                <img src="images/strawberry.png" alt="Teh Tarik Strawberry">
+                            </div>
+                        </div>
+                        <h3 class="product-title strawberry-text">Teh Tarik Strawberry</h3>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="product-image-container mango">
+                            <div class="product-image-inner">
+                                <img src="images/mangga.png" alt="Teh Tarik Mangga">
+                            </div>
+                        </div>
+                        <h3 class="product-title mango-text">Teh Tarik Mangga</h3>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="product-image-container melon">
+                            <div class="product-image-inner">
+                                <img src="images/melon.png" alt="Teh Tarik Melon">
+                            </div>
+                        </div>
+                        <h3 class="product-title melon-text">Teh Tarik Melon</h3>
+                    </div>
+                </div>
+                
+                <div class="slider-nav">
+                    <button onclick="moveSlide(-1)">❮</button>
+                    <button onclick="moveSlide(1)">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHITE SECTION - Deskripsi Bisnis & Sejarah Brand -->
+    <section class="section section-white">
+        <div class="container">
+            <h2>Tentang Al-Farid</h2>
+            <p class="description">
+                Al-Farid adalah brand lokal yang menghadirkan pengalaman teh tarik otentik dengan sentuhan rasa masa kini.
+            </p>
+            
+            <h3>Sejarah Singkat</h3>
+            <p class="history">
+                Nama "Al-Farid" berarti "yang unik" dalam Bahasa Arab — menggambarkan keunikan rasa dan penyajian teh kami.
+            </p>
+            
+            <h3>Varian Rasa</h3>
+            <ul class="flavors">
+                <li>Teh Tarik Original</li>
+                <li>Strawberry</li>
+                <li>Mangga</li>
+                <li>Melon</li>
+            </ul>
+            
+            <h3>Media Sosial</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahkan section lainnya sesuai dengan struktur yang telah dibahas sebelumnya -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
